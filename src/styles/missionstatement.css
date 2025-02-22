@@ -1,4 +1,24 @@
 .mission-statement {
-    background-color: blue;
-    height: 100px;
+    padding: 20px;
+}
+
+.key-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.key-info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.key-message {
+    margin-top: auto;
+}
+
+.key-header {
+    font-size: 14pt;
 }
