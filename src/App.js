@@ -1,4 +1,5 @@
 import logo from './PayFWDs_Left_Aligned_Full_Color.webp'
+import { MissionStatement } from './MissionStatement';
 import './App.css';
 
 function App() {
@@ -8,7 +9,7 @@ function App() {
         <img src={logo} className='app-logo' alt="logo"/>
       </div>
       <div>
-        
+        <MissionStatement/>
       </div>
     </div>
   );
